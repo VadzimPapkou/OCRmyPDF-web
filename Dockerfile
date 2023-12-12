@@ -2,6 +2,7 @@ FROM jbarlow83/ocrmypdf
 
 USER root
 
+RUN ls
 RUN mkdir /app
 WORKDIR /app
 
